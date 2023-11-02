@@ -1,0 +1,60 @@
+/* .bg-white{
+    background-color: green;
+    width: 40%;
+    height: 800px;
+    transform: translate(400px,30px);
+} */
+/* .Navbar{
+    background-color: red;
+    height: 300px;
+    width: 600px;
+    transform: translate(300px,30px);
+} */
+
+/* Navbar.css */
+
+.Navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Navbar a:hover {
+    background-color: #1f2937;
+    color: #fff;
+}
+
+/* Style the Reset button */
+ .Navbar button {
+    background-color: #1f2937;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Navbar button:hover {
+    background-color: #0e1621;
+} 
+
+/* Style the WagmiUtils component (you may need to adjust this based on its structure) */
+.WagmiUtils {
+    /* Add styles for WagmiUtils component here */
+}  
